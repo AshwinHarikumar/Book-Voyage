@@ -1,0 +1,32 @@
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f9;
+  margin-top: 150px;
+}
+
+.profile-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  width: 300px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.profile-card h1 {
+  margin-bottom: 20px;
+}
+
+.profile-item {
+  margin-bottom: 10px;
+}
+
+.profile-item strong {
+  display: inline-block;
+  width: 70px;
+  text-align: left;
+}

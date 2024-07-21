@@ -1,0 +1,55 @@
+.admin-page {
+    background-image: url('output.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height:80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff; 
+  }
+  
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px 20px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 60px;
+    margin-left: 6rem;
+    
+  }
+  
+  .nav-links li {
+    font-size: 18px;
+  }
+  
+  .nav-links li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links li a:hover {
+    color: #ffcc00; 
+  }
+  
+  .content {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .footer{
+    margin-top: 500px;
+  }

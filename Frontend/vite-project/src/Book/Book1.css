@@ -1,0 +1,42 @@
+.book-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin:auto; 
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: aliceblue;
+    margin-top: 40px;
+  }
+  
+  .book-info {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .book-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .book-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  }
+  .like-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #888;
+    font-size: 1.5rem;
+  }
+  
+  .like-button.liked {
+    color: #007bff; /* Change color when liked */
+  }

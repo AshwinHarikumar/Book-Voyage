@@ -1,0 +1,138 @@
+.book-shopping-page {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* background-image: url(/output.jpg); */
+
+}
+
+.book-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+  
+  .book-card {
+    display: flex;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+.rentedbook-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+
+}
+.favorite-icon {
+  background-color: transparent;
+}
+
+.favorite-icon.favorited {
+  background-color: red;
+}
+
+
+.book-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.book-card {
+  position: relative;
+  padding-right: 40px; /* Adjust padding as needed */
+}
+
+.book-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.rented-book-image img {
+  width: 80%; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 150px; /* Set a maximum width to control size */
+}
+
+.book-image img {
+  width: 100%; /* Maintain full width for available books */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.book-image1{
+  width:100%;
+ height: auto;
+}
+  
+  
+  .book-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .book-details {
+    padding: 10px;
+  }
+  
+  .book-details h3 {
+    margin-bottom: 5px;
+  }
+  
+  .book-details p {
+    margin-bottom: 10px;
+  }
+  
+  .book-details button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .book-details button:hover {
+    background-color: #0056b3;
+  }
+  
+  .cart {
+    margin-top: 20px;
+    border-top: 2px solid #ddd;
+    padding-top: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Dark background for contrast */
+    color: #fff; /* Ensure text color is white */
+    border-radius: 8px;
+    padding: 20px; /* Add padding for a better layout */
+}
+
+.cart h2 {
+    margin-bottom: 10px;
+}
+
+.cart ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart li {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart button {
+    padding: 8px 16px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.cart button:hover {
+    background-color: #218838;
+}
+
+
