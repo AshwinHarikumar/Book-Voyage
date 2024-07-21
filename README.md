@@ -1,4 +1,4 @@
-![Screenshot (146)](https://github.com/user-attachments/assets/16a98e78-8311-4947-a6b2-f3da8b05b415)
+
 
 Project Title: Modern Bookstore App (MERN Stack)
 
